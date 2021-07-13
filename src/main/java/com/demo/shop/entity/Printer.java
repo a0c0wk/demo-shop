@@ -1,5 +1,7 @@
-package com.mak.impaq;
+package com.demo.shop.entity;
 
-public interface Printer {
+import com.demo.shop.business.ScannerSummary;
+
+public interface Printer extends Product {
     void printRecipt(ScannerSummary scannerSummary);
 }

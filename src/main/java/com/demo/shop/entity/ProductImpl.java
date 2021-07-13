@@ -1,4 +1,4 @@
-package com.mak.impaq;
+package com.demo.shop.entity;
 
 public class ProductImpl implements Product {
 

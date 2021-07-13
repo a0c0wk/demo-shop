@@ -1,8 +1,11 @@
-package com.mak.impaq;
+package com.demo.shop.business;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import com.demo.shop.dao.ProductsDB;
+import com.demo.shop.entity.Product;
 
 public class ScannerImpl implements Scanner {
 

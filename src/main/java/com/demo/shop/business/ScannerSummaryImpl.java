@@ -1,12 +1,14 @@
-package com.mak.impaq;
+package com.demo.shop.business;
 
 import java.util.List;
+
+import com.demo.shop.entity.Product;
 
 public class ScannerSummaryImpl implements ScannerSummary {
 
     private List<Product> productsList;
     private int summaryPrice;
-    private Printer print;
+   
 
     public ScannerSummaryImpl(List<Product> productsList) {
         this.productsList = productsList;
@@ -14,7 +16,6 @@ public class ScannerSummaryImpl implements ScannerSummary {
 
     @Override
     public List<Product> productsList() {
-        print.printRecipt(this);
         return productsList;
     }
 

@@ -1,10 +1,9 @@
-package com.mak.impaq;
+package com.demo.shop;
 
-import com.mak.impaq.ScannerResult;
-import com.mak.impaq.ScannerImpl;
-import com.mak.impaq.Scanner;
-import com.mak.impaq.ProductsDB;
-import com.mak.impaq.ProductImpl;
+import com.demo.shop.business.*;
+import com.demo.shop.dao.*;
+import com.demo.shop.entity.*;
+
 import java.util.Optional;
 import org.junit.Test;
 import static org.junit.Assert.*;
